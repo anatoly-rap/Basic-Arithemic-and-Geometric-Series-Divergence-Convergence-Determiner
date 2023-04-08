@@ -74,7 +74,7 @@ def main_menu():
     win.title("Sequence Divergence/Convergence Determiner")
     title_label = tk.Label(win, text="Hello, welcome to the sequence Divergence/Convergence Determiner", bg="#f0f9fa")
     title_label.pack()
-    author_label = tk.Label(win, text="_______________________________________________________@Author Anatoly Rapport", bg="#f0f9fa")
+    author_label = tk.Label(win, text="_______________________________________________________@Author Ana-r", bg="#f0f9fa")
     author_label.pack()
     base_folder = os.path.dirname(__file__);
     image_path = os.path.join(base_folder, 'fig');
