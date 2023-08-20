@@ -88,14 +88,16 @@ def main_menu():
     win.minsize(800, 400)
     win.maxsize(800, 400)
     win.title("Sequence Divergence/Convergence Determiner")
-    #image_path = os.path.join(os.path.dirname(__file__), 'fig')
-    #image = Image.open(image_path)
-    #img = ImageTk.PhotoImage(image.resize((600, 180)))
-    #label = tk.Label(win, image=img)
-    #label.image = img
-    #label.pack()
+    
+    image_path = os.path.join(os.path.dirname(__file__), 'fig')
+    image = Image.open(image_path)
+    img = ImageTk.PhotoImage(image.resize((600, 180)))
+    label = tk.Label(win, image=img)
+    label.image = img
+    label.pack()
     title_label = tk.Label(win, text="Hello, welcome to the Sequence Divergence/Convergence Determiner", bg="#f0f9fa")
     title_label.pack()
+    
     author_label = tk.Label(win, text="_______________________________________________________@Author Ana-r", bg="#f0f9fa")
     author_label.pack()
     option_label = tk.Label(win, text="What type of sequence will you be looking at today?", bg="#f0f9fa")
